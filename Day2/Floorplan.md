@@ -18,6 +18,7 @@
 
 - As shown in the figure below, the area of the die can be calculated using the values in the second parenthesis highlighted(**first** parentheses consists- **lower left X and Y** coordinates, **second** one denotes **upper right X and Y** values).
 - The area of the die can be calculated using these latter X and Y as the product. Here:
--   Area = X x Y = 660685   ×   671405 = 4,43,58,72,12,425 square micron meters. (The unit is mentioned above the as microns, ∴ 1 unit micron = 1000 data-base units.)
+-   Area = X x Y = 660685   ×   671405 = 4,43,58,72,12,425 square micron meters data-base units. (The unit is mentioned as microns, i.e 1 unit micron = 1000 data-base units.)
+-   Rather Area = (660685/1000)   ×  (671405/1000) = 443587.212425 square micron meters
   
   <img width="959" height="470" alt="image" src="https://github.com/user-attachments/assets/0a82d91d-8534-4a8c-9804-d8eae4e8e2a2" />
