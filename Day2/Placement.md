@@ -1,6 +1,6 @@
 # Congestion-aware Placement
 1. Congestion takes place in OpenLANE takes place in two stages
-2. To run placement in the flow.tck interactive environment, give the command - '% run_placement'.<img width="882" height="440" alt="image" src="https://github.com/user-attachments/assets/17d59599-96aa-402a-bf71-bfb4452a93b9" />
+2. To run placement in the flow.tck interactive environment, give the command - '% run_placement'.The resulting output of the command is shown below: <img width="882" height="440" alt="image" src="https://github.com/user-attachments/assets/17d59599-96aa-402a-bf71-bfb4452a93b9" />
 
 3. Under 'designs/picorv32a/10-08_16-13/results/placement', the Magic window is opened entering the .def file of the successfully generated placement of the synthesis run at the time 16:13 hrs and dated 10/08.
 4. In this program, the overflow decreases over time(OVFL) for the placement to be right and the design to converge.
