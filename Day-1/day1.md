@@ -23,3 +23,8 @@ $ docker**
 - **The flop ratio(count of flops) is determined as - (number of flops(basically T flip-flop))/(total number of cells)**
   for example: given- 'sky130_fd_sc_hd_dfxtp_4 1634' and 'Number of cells:  17323', the flop ratio is - 1634/17323 = 09432546325694163828436183109161
   in percentage comes as ~ 9.43%
+# 4. The Results Folder
+- Open the 'results/' folder, and further, open the 'synthesis/' folder
+- To view the synthesised netlist, use command: 'less picorv32a.synthesis.v', where all the mappings are done.
+- The timing reports are contained in the 'reports/' directory
+_**To exit the terminal of any environment, press Q or enter':wq'**_
