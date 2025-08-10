@@ -27,14 +27,16 @@ $ docker**
   given- 'sky130_fd_sc_hd_dfxtp_4 _**1634**_' and 'Number of cells:  _**17323**_',
   the flop ratio is - 1634/17323 = 009432546325694163828436183109161
   in percentage comes as ~ 9.43% = Percenatage of DFFs in the cell area
+
+  <img width="954" height="475" alt="image" src="https://github.com/user-attachments/assets/d09ca29f-6129-49e3-8869-05c8ee7d1b4a" />
   
 # 4. The Results Folder
 - Open the 'results/' folder, and further, open the 'synthesis/' folder
 - To view the synthesised netlist, use command: 'less picorv32a.synthesis.v', where all the mappings are done.
 - The timing reports are contained in the 'reports/' directory
-_**Note : To exit the terminal of any environment, press Q or enter':wq'**_
-<img width="958" height="503" alt="image" src="https://github.com/user-attachments/assets/899fc279-8fbe-43c4-84f7-489b2daa551b" />
+  _**Note : To exit the terminal of any environment, press Q or enter':wq'**_
 - To check the STA analysis report, 'runs/'>'{latest date_file}'>reports>synthesis>give command to open the '..stat.rpt'(eg: 'less 1-yosys_4.stat.rpt')
 
-<img width="954" height="475" alt="image" src="https://github.com/user-attachments/assets/d09ca29f-6129-49e3-8869-05c8ee7d1b4a" />
+  <img width="958" height="503" alt="image" src="https://github.com/user-attachments/assets/899fc279-8fbe-43c4-84f7-489b2daa551b" />
+
 
