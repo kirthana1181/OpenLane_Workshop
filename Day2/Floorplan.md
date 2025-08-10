@@ -22,3 +22,12 @@
 -   Rather Area = (660685/1000)   ×  (671405/1000) = 443587.212425 square micron meters
   
   <img width="959" height="470" alt="image" src="https://github.com/user-attachments/assets/0a82d91d-8534-4a8c-9804-d8eae4e8e2a2" />
+
+# 4. Working in Magic
+- To know the layer of the metal contact, pin or a certain interconnect of the cell displayed on Magic's layout window, the command is given in the tkcon 2.3 Main is 'what'. The resulting output gives information on the selected layer and label. Here, the pin is contained in metal layer 3 ('metal3')
+<img width="948" height="467" alt="image" src="https://github.com/user-attachments/assets/8a8e622f-accb-4884-a9d2-21127b95b896" />
+- Another pin's(highlighted in white as trace2)layer is recognised as belonging to metal layer 3, as shown below
+<img width="618" height="413" alt="image" src="https://github.com/user-attachments/assets/6fcba4ec-5111-4dd7-b830-168be011d8dd" />
+- The tap cells present along the center, as shown in the figure, are always diagonally equidistant from each other, to avoid latch-up in the CMOS devices, i.e N-well to Vdd and substrate to the gnd.
+
+
