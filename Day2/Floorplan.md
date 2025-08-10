@@ -1,8 +1,7 @@
 # 1. To run the floorplan
-- In the TCL interactive, give command:'%run_floorplan'
+- In the TCL interactive, give command:'% run_floorplan'
 - Precendence order : skywater pdk('sky130A_fd_sc_hd_config.tcl'), 'config.tcl'(under 'designs/runs'), 'README.md'(mentioned below)
 <img width="948" height="475" alt="image" src="https://github.com/user-attachments/assets/6f100259-637a-439a-81f6-8975c5927598" />
-
 
 # 2. The floorplan information directory under 'openlane/configurations'
 - The following image describes the output of the command: 'less README.md', which displays the variables that can be set during synthesis flow, floorplan, and other steps of the VLSI-design flow. (For this 'openlane'>'configuration'>'README.md')
@@ -25,9 +24,12 @@
 
 # 4. Working in Magic
 - To know the layer of the metal contact, pin or a certain interconnect of the cell displayed on Magic's layout window, the command is given in the tkcon 2.3 Main is 'what'. The resulting output gives information on the selected layer and label. Here, the pin is contained in metal layer 3 ('metal3')
+  
 <img width="948" height="467" alt="image" src="https://github.com/user-attachments/assets/8a8e622f-accb-4884-a9d2-21127b95b896" />
 - Another pin's(highlighted in white as trace2)layer is recognised as belonging to metal layer 3, as shown below
+  
 <img width="618" height="413" alt="image" src="https://github.com/user-attachments/assets/6fcba4ec-5111-4dd7-b830-168be011d8dd" />
 - The tap cells present along the center, as shown in the figure, are always diagonally equidistant from each other, to avoid latch-up in the CMOS devices, i.e N-well to Vdd and substrate to the gnd.
 - Standard cells are always located at the bottom left corner of the cell, as shown in the image(zoomed towards bottom left corner)
+  
 <img width="811" height="455" alt="image" src="https://github.com/user-attachments/assets/44218f0d-6479-4a2a-afe7-06e786f60c37" />
