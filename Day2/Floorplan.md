@@ -17,7 +17,7 @@
   <img width="813" height="209" alt="image" src="https://github.com/user-attachments/assets/0485a1f8-1665-4a88-aeaf-aead17e1ce3e" />
 
 - As shown in the figure below, the area of the die can be calculated using the values in the second parenthesis highlighted(**first** parentheses consists- **lower left X and Y** coordinates, **second** one denotes **upper right X and Y** values).
-- The area of the die can be calculated using these latter X and Y as the product. Here:
+- The area of the die can be calculated using the latter X and Y values' for the product. Here:
 -   Area = X x Y = 660685   ×   671405 = 4,43,58,72,12,425 square micron meters data-base units. (The unit is mentioned as microns, i.e 1 unit micron = 1000 data-base units.)
 -   Rather Area = (660685/1000)   ×  (671405/1000) = 443587.212425 square micron meters
   
@@ -29,5 +29,5 @@
 - Another pin's(highlighted in white as trace2)layer is recognised as belonging to metal layer 3, as shown below
 <img width="618" height="413" alt="image" src="https://github.com/user-attachments/assets/6fcba4ec-5111-4dd7-b830-168be011d8dd" />
 - The tap cells present along the center, as shown in the figure, are always diagonally equidistant from each other, to avoid latch-up in the CMOS devices, i.e N-well to Vdd and substrate to the gnd.
-
-
+- Standard cells are always located at the bottom left corner of the cell, as shown in the image(zoomed towards bottom left corner)
+<img width="811" height="455" alt="image" src="https://github.com/user-attachments/assets/44218f0d-6479-4a2a-afe7-06e786f60c37" />
