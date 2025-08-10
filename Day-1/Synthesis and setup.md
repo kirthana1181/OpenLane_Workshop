@@ -1,5 +1,3 @@
-# The steps to design a File are:
-
 # 1. Setting up Data for design file using command after opening docker:
 **To open the docker, for entering prompts in the docker bash:
 $ docker**
