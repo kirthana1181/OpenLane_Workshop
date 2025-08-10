@@ -31,6 +31,6 @@ $ docker**
 - The timing reports are contained in the 'reports/' directory
 _**Note : To exit the terminal of any environment, press Q or enter':wq'**_
 <img width="958" height="503" alt="image" src="https://github.com/user-attachments/assets/899fc279-8fbe-43c4-84f7-489b2daa551b" />
-- **To check the STA analysis report, 'runs/'>'{latest date_file}'>reports>synthesis>give command to open the'..stat.rpt' (eg: 'less 1-yosys_4.stat.rpt')**
+- **To check the STA analysis report, 'runs/'>'{latest date_file}'>reports>synthesis>give command to open the'..stat.rpt'(eg: 'less 1-yosys_4.stat.rpt')**
 <img width="954" height="475" alt="image" src="https://github.com/user-attachments/assets/d09ca29f-6129-49e3-8869-05c8ee7d1b4a" />
 
