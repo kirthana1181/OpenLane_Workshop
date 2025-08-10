@@ -11,3 +11,13 @@
 - In the floorplan.tcl file, the default paramters which ae set for floorplan are shown, as in the screenshot attached below.
 <img width="955" height="490" alt="image" src="https://github.com/user-attachments/assets/7f9e5574-787e-41e4-ac99-b3de0878489c" />
 - Always the design parameter value mentioned in the README.md will follow the precedence order mentioned( the value in the pdk tcl file is the one copied onto README.md file as well, and has to be overwritten over config.tcl)
+# 3. Calculating Die Area
+- Under the results for floorplan ('designs/picorv32a/10-08_09_16/results/floorplan'), the command si run:'$less picorv32a.floorplan.def' (the .def file), which displays the locations and dimensions of the die.
+
+  <img width="813" height="209" alt="image" src="https://github.com/user-attachments/assets/0485a1f8-1665-4a88-aeaf-aead17e1ce3e" />
+
+- As shown in the figure below, the area of the die can be calculated using the values in the second parenthesis highlighted(**first** parentheses consists- **lower left X and Y** coordinates, **second** one denotes **upper right X and Y** values).
+- The area of the die can be calculated using these latter X and Y as the product. Here:
+-   Area = X x Y = 660685   ×   671405 = 4,43,58,72,12,425 square micron meters. (The unit is mentioned above the as microns, ∴ 1 unit micron = 1000 data-base units.)
+  
+  <img width="959" height="470" alt="image" src="https://github.com/user-attachments/assets/0a82d91d-8534-4a8c-9804-d8eae4e8e2a2" />
