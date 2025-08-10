@@ -22,12 +22,17 @@ $ docker**
 - **After the Synthesis is completed the message is displayed '[INFO]:Synthesis was successful'**
   <img width="930" height="458" alt="image" src="https://github.com/user-attachments/assets/4555addf-761f-4056-9291-e559bf58cbb8" />
 
-- **The flop ratio(count of flops) is determined as - (number of flops(basically T flip-flop))/(total number of cells)**
+- **The flop ratio(count of flops) is determined as** = \
+      number of flops(basically D flip-flops) \
+    __________________________________________ \
+    total number of cells
+  
+  
   for example:
-  given- 'sky130_fd_sc_hd_dfxtp_4 _**1634**_' and 'Number of cells:  _**17323**_',
-  the flop ratio is - 1634/17323 = 009432546325694163828436183109161
-  in percentage comes as ~ 9.43% = Percenatage of DFFs in the cell area
-
+  given -'sky130_fd_sc_hd_dfxtp_4 _**1634**_' and 'Number of cells:  _**17323**_',
+  - the flop ratio is - 1634/17323 = 009432546325694163828436183109161
+  - in percentage comes as ~ 9.43% = Percenatage of DFFs in the cell area
+    
   <img width="954" height="475" alt="image" src="https://github.com/user-attachments/assets/d09ca29f-6129-49e3-8869-05c8ee7d1b4a" />
   
 # 4. The Results Folder
