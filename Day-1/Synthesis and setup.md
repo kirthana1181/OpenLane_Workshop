@@ -4,7 +4,7 @@ $ docker**
 - **Then open the flow interactive terminal using command : '$ ./flow.tcl -interactive'**
 - **This opens the openlane interactive command environment in bash**
 - **TO prepare the design file, use the following command in the bash as**
-**% prep -design picorv32a**
+'**_% prep -design picorv32a_**'
 - **Following this the message displayed is '[INFO]:Preparation complete'**
 
 # 2. To review files after design prep and run synthesis
