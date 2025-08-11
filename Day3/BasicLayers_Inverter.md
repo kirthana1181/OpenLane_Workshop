@@ -1,4 +1,4 @@
-# Working in Magic - basic introduction to layers and lef using Inverter
+# Working in NGSpice and Magic - basic introduction to layers and lef using Inverter
 - To open magic, the command in terminal under the 'openlane/vsdstdcelldesign/' directory containing .mag file of inverter:
 'magic -T sky130A.tech sky_inv.mag'(the name of inverter mag file is 'sky_inv').
 - The below image represents the transistor-level view of Inverter in magic.
