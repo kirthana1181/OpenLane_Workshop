@@ -42,4 +42,5 @@ $ docker**
 
   <img width="958" height="503" alt="image" src="https://github.com/user-attachments/assets/899fc279-8fbe-43c4-84f7-489b2daa551b" />
 
+In summary, Openlane allows for changes on the run. The GitHub repository of OpenLANE is viewed and understood
 
